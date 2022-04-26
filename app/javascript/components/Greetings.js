@@ -32,7 +32,7 @@ class Greetings extends React.Component {
 
    return(
       <React.Fragment>
-        <h1>Hello World!!</h1>
+        <h1>Hello in Five Languages 😃 </h1>
 
         <button onClick={() => this.props.getGreetings()}>Get Greetings</button>
         <ul>{greetingList}</ul>

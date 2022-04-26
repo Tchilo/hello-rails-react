@@ -1,5 +1,3 @@
-
-  
 class V1::GreetingsController < ApplicationController
   def index
     @greetings = Message.find(Message.pluck(:id).sample)
